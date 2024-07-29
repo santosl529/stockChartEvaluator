@@ -1,7 +1,7 @@
 # stockChartEvaluator
 python data.py
 python dataSorter.py
-yolo classify train data=dataset model=yolov8n-cls.yaml epochs=100 imgsz=40
+yolo classify train data=dataset model=yolov8n-cls.yaml epochs=100 imgsz=40 or yolo classify train data=dataset model=yolov8n-cls.yaml epochs=100 imgsz=640  
 change path to best model
 python predict.py 
 STOCKS END UP IN bestStocks.txt and goodStocks.txt

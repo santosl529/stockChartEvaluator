@@ -1,6 +1,6 @@
 from ultralytics import YOLO
 
-model = YOLO("runs/classify/train/weights/best.pt")
+model = YOLO("runs/classify/train4/weights/best.pt")
 
 results = model("data/current", save_txt=True , conf= 0.5)
 counter = 0

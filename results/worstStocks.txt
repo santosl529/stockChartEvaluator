@@ -3,4 +3,4 @@
 0  V  36.68%
 0  WFC  33.550000000000004%
 0  MS  33.879999999999995%
-Top percent: 37.78%
+Top percent: 37.78%Top percent: 0%

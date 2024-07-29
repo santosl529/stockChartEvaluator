@@ -8,4 +8,4 @@
 1  MCD 34.29%
 1  GE 46.739999999999995%
 1  PM 35.67%
-Top percent: 53.11%
+Top percent: 53.11%TopTop percent: 0%
