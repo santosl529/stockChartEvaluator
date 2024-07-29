@@ -3,11 +3,10 @@ import os
 import time
 import webbrowser
 import pyautogui
-import keyboard
 import shutil
 
-current='stockChartEvaluator/data/current'
-toBeLabeled='stockChartEvaluator/data/toBeLabeled'
+current='data/current'
+toBeLabeled='data/toBeLabeled'
 for name in os.listdir(current):
     shutil.move(os.path.join(current, name), os.path.join(toBeLabeled, name))
 
