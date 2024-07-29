@@ -1,0 +1,4 @@
+0.39 0To5
+0.26 -5AndUnder
+0.26 -5To0
+0.09 5AndOver

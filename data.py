@@ -26,7 +26,7 @@ if banner:
         screenshot = ImageGrab.grab(bbox=(100, 500, 1020, 880))
         number = len([name for name in os.listdir(current) if os.path.isfile(os.path.join(current, name))])
         # Save the screenshot to a file
-        screenshot.save(os.path.join(current, f'screenshot{number}.png'))
+        screenshot.save(os.path.join(current, f'{stock}.png'))
         # Close the screenshot
         screenshot.close()
         pyautogui.hotkey('command', 'w')
